@@ -7,7 +7,7 @@ function Appbar(){
 
     return <div  style={{display:"flex", justifyContent: "space-between",width: "100vw",
     height: 65  ,
-          backgroundColor: "lightblue",position: "sticky",zIndex: 1000 }}>
+          backgroundColor: "#F8F0E3",position: "sticky",zIndex: 1000 }}>
 
     <div style={{ display:"flex",justifyContent:"center"
         }}>
