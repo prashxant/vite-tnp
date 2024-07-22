@@ -1,0 +1,117 @@
+.Ourteam {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.heading {
+  margin-bottom: 30px;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #333;
+}
+
+
+
+.student-heading {
+  margin-top: 50px; /* Adds gap between sections */
+  margin-bottom: 30px;
+}
+
+.testimonials-page, .testimonials-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.prominent-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  background-color: #f9f9f9;
+  font-size: 1.3em;
+  color: #333;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  font-size: 1.1em;
+  box-sizing: border-box;
+  height: auto;
+  flex: 1 1 calc(33.33% - 20px);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.testimonial:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.testimonial-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+.testimonial-text {
+  font-style: italic;
+  margin: 0 0 10px;
+  color: #555;
+}
+
+.testimonial-name {
+  font-weight: bold;
+  margin: 0 0 5px;
+  color: #333;
+}
+
+.testimonial-email, .testimonial-phone {
+  margin: 2px 0;
+}
+
+.testimonial-email a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.testimonial-email a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .testimonial {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonial {
+    flex: 1 1 100%;
+  }
+}

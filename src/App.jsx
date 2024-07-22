@@ -1,14 +1,11 @@
-
-import './App.css'
+import Ourteam from './Ourteam-1';
 
 function App() {
-  
-
   return (
-    <>
-     <h1>nabadeep maeeek sudaaaaa</h1>
-    </>
-  )
+    <div className="App">
+      <Ourteam />
+    </div>
+  );
 }
 
-export default App
+export default App;
