@@ -1,15 +1,19 @@
 import React from 'react';
 import './Ourteam.css';
-import testimonialImage1 from './assets_Ourteam/202202021024.jpeg'; 
+import testimonialImage1 from './assets_Ourteam/202202021024.jpeg';
+import emailIcon from './assets_Ourteam/gmail-iconnn.png';
+import phoneIcon from './assets_Ourteam/instagram-icon.png';
+import linkedinIcon from './assets_Ourteam/linkedin photo.png';
+
 
 const testimonials = [
   {
-    name: 'Agile Rendi',
+    name: 'Agile ',
     text: 'TRAINING & PLACEMENT OFFICER | FACULTY MEMBER (ECE)',
     email: 'agile@example.com',
     phone: '000000-000000',
     image: testimonialImage1,
-    className: 'prominent-box' 
+    className: 'prominent-box'
   },
   {
     name: 'MR. BIKRAMJIT CHOUDHARY',
@@ -50,105 +54,102 @@ const testimonials = [
     phone: '333-444-5555',
     image: testimonialImage1,
     className: 'testimonial'
-  }
-];
-
-const studentCoordinators = [
-  {
-    name: 'NABADEEP KR. DAS',
-    text: 'Student Co-ordinator (CS)',
-    email: 'john.doe@example.com',
-    phone: '999-888-7777',
-    image: testimonialImage1,
-    className: 'testimonial'
   },
   {
-    name: 'Jane Smith',
-    text: 'Student Co-ordinator (ECE)',
-    email: 'jane.smith@example.com',
-    phone: '888-777-6666',
+    name: 'Student 1',
+    text: 'STUDENT CO-ORDINATOR',
+    email: 'student1@example.com',
+    phone: '111-111-1111',
     image: testimonialImage1,
-    className: 'testimonial'
+    className: 'student-box'
   },
   {
-    name: 'Sam DA',
-    text: 'Student Co-ordinator (MCD)',
-    email: 'sam.brown@example.com',
-    phone: '777-666-5555',
+    name: 'Student 2',
+    text: 'STUDENT CO-ORDINATOR',
+    email: 'student2@example.com',
+    phone: '222-222-2222',
     image: testimonialImage1,
-    className: 'testimonial'
+    className: 'student-box'
   },
   {
-    name: 'Alice ',
-    text: 'Student Co-ordinator (CE)',
-    email: 'alice.johnson@example.com',
-    phone: '666-555-4444',
+    name: 'Student 3',
+    text: 'STUDENT CO-ORDINATOR',
+    email: 'student3@example.com',
+    phone: '333-333-3333',
     image: testimonialImage1,
-    className: 'testimonial'
+    className: 'student-box'
   },
   {
-    name: ' Lee',
-    text: 'Student Co-ordinator (EE)',
-    email: 'bob.lee@example.com',
-    phone: '555-444-3333',
+    name: 'Student 4',
+    text: 'STUDENT CO-ORDINATOR',
+    email: 'student4@example.com',
+    phone: '444-444-4444',
     image: testimonialImage1,
-    className: 'testimonial'
+    className: 'student-box'
   },
   {
-    name: 'JAHNAVI',
-    text: 'Student Co-ordinator (CSE)',
-    email: 'mary.green@example.com',
-    phone: '444-333-2222',
+    name: 'Student 5',
+    text: 'STUDENT CO-ORDINATOR',
+    email: 'student5@example.com',
+    phone: '555-555-5555',
     image: testimonialImage1,
-    className: 'testimonial'
+    className: 'student-box'
   },
   {
-    name: 'PeTER ',
-    text: 'Student Co-ordinator (ECE)',
-    email: 'peter.parker@example.com',
-    phone: '999-888-7777',
+    name: 'Student 6',
+    text: 'STUDENT CO-ORDINATOR',
+    email: 'student6@example.com',
+    phone: '666-666-6666',
     image: testimonialImage1,
-    className: 'testimonial'
+    className: 'student-box'
   },
   {
-    name: 'XNXX',
-    text: 'Student Co-ordinator (ECE)',
-    email: 'clark.kent@example.com',
-    phone: '888-777-6666',
+    name: 'Student 7',
+    text: 'STUDENT CO-ORDINATOR',
+    email: 'student6@example.com',
+    phone: '666-666-6666',
     image: testimonialImage1,
-    className: 'testimonial'
+    className: 'student-box'
   },
   {
-    name: 'MRNMOY',
-    text: 'Student Co-ordinator (MCD)',
-    email: 'bruce.wayne@example.com',
-    phone: '777-666-5555',
+    name: 'Student 8',
+    text: 'STUDENT CO-ORDINATOR',
+    email: 'student6@example.com',
+    phone: '666-666-6666',
     image: testimonialImage1,
-    className: 'testimonial'
+    className: 'student-box'
   },
   {
-    name: 'Dikshit KALOTA',
-    text: 'Student Co-ordinator (CE)',
-    email: 'diana.prince@example.com',
-    phone: '666-555-4444',
+    name: 'Student 9',
+    text: 'STUDENT CO-ORDINATOR',
+    email: 'student6@example.com',
+    phone: '666-666-6666',
     image: testimonialImage1,
-    className: 'testimonial'
+    className: 'student-box'
   },
   {
-    name: ' Allen Sarma',
-    text: 'Student Co-ordinator (ECE)',
-    email: 'barry.allen@example.com',
-    phone: '555-444-3333',
+    name: 'Student 10',
+    text: 'STUDENT CO-ORDINATOR',
+    email: 'student6@example.com',
+    phone: '666-666-6666',
     image: testimonialImage1,
-    className: 'testimonial'
+    className: 'student-box'
   },
   {
-    name: 'HAREN DAS',
-    text: 'Student Co-ordinator (FET)',
-    email: 'xxxxxxx@example.com',
-    phone: '444-333-2222',
+    name: 'Student 11',
+    text: 'STUDENT CO-ORDINATOR',
+    email: 'student6@example.com',
+    phone: '666-666-6666',
     image: testimonialImage1,
-    className: 'testimonial'
+    className: 'student-box'
+  },
+  {
+    name: 'Student 12',
+    text: 'STUDENT CO-ORDINATOR',
+    email: 'student6@example.com',
+    phone: '666-666-6666',
+    image: testimonialImage1,
+    className: 'student-box'
   }
 ];
 
@@ -159,8 +160,17 @@ const Testimonial = ({ name, text, email, phone, image, className }) => {
       <div className="testimonial-details">
         <p className="testimonial-text">{text}</p>
         <h3 className="testimonial-name">- {name}</h3>
-        <p className="testimonial-email">Email: <a href={`mailto:${email}`}>{email}</a></p>
-        <p className="testimonial-phone">Phone: {phone}</p>
+        <div className="testimonial-icons">
+          <a href={`mailto:${email}`} className="icon-link" aria-label="Email">
+            <img src={emailIcon} alt="Email" className="icon-image" />
+          </a>
+          <a href={`tel:${phone}`} className="icon-link" aria-label="Phone">
+            <img src={phoneIcon} alt="Phone" className="icon-image" />
+          </a>
+          <a href="https://www.linkedin.com" className="icon-link" aria-label="LinkedIn">
+            <img src={linkedinIcon} alt="LinkedIn" className="icon-image" />
+          </a>
+        </div>
       </div>
     </div>
   );
@@ -170,7 +180,6 @@ const Ourteam = () => {
   return (
     <div className="Ourteam">
       <h1 className="heading">TPO & Faculty Members</h1>
-      
       <div className="testimonials-page">
         {testimonials.filter(t => t.className === 'prominent-box').map((testimonial, index) => (
           <Testimonial
@@ -197,22 +206,22 @@ const Ourteam = () => {
           />
         ))}
       </div>
-      <br /><br /><br />
-      <br />      
+     <br></br>
+     <br></br>
+     <br></br>
+     <br></br>
+     <br></br>
       <h1 className="heading student-heading">Student Co-ordinators</h1>
-      <br /> <br />
-      <br /> <br />
-      <br /> 
       <div className="testimonials-row">
-        {studentCoordinators.map((coordinator, index) => (
+        {testimonials.filter(t => t.className === 'student-box').map((testimonial, index) => (
           <Testimonial
             key={index}
-            name={coordinator.name}
-            text={coordinator.text}
-            email={coordinator.email}
-            phone={coordinator.phone}
-            image={coordinator.image}
-            className={coordinator.className}
+            name={testimonial.name}
+            text={testimonial.text}
+            email={testimonial.email}
+            phone={testimonial.phone}
+            image={testimonial.image}
+            className={testimonial.className}
           />
         ))}
       </div>
