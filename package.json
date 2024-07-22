@@ -12,10 +12,14 @@
   "dependencies": {
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
+<<<<<<< HEAD
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
     "@fortawesome/free-brands-svg-icons": "^6.6.0",
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
+=======
+    "@mui/icons-material": "^5.16.4",
+>>>>>>> d66197bb226c76df947eb4a4f7c03eb581f59e79
     "@mui/material": "^5.16.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
